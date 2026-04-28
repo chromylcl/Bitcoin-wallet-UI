@@ -25,3 +25,7 @@ Building a wallet UI which is just a dashboard for money + transactions.
 | Amount  [__________]         |
 | [ Send Button ]              |
 ---------------------------------
+
+
+
+SAMPLE: bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
