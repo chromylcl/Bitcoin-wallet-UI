@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BITCOIN Wallet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bitcoin Wallet</h1>
+      <div class="card">
+        <input type="text" placeholder="Enter BTC Address" />
+        <button>Fetch!</button>
+      </div>
+      <div class="card">
+        <h2>Balance</h2>
+        <p>0.00 BTC</p>
+      </div>
+
+      <div class="card">
+        <h2>Transactions</h2>
+        <ul id="txlist"></ul>
+      </div>
+      <div class="card">
+        <h2>Send BTC</h2>
+        <input type="text" placeholder="Recipient Address" />
+        <input type="number" placeholder="Amount" />
+        <button>Send</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

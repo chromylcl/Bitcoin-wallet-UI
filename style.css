@@ -1,0 +1,39 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.crypto-card {
+  background: #1b1919;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #f7931a; /* Bitcoin Orange */
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
